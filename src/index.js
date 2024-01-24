@@ -1,3 +1,2 @@
-import('./render').then(exports => {
-    exports.render()
-})
+import postcss from 'postcss';
+console.log(postcss);
